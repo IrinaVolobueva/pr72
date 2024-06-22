@@ -1,0 +1,24 @@
+﻿<Window x:Class="пр72.Result"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:пр72"
+        mc:Ignorable="d"
+        Title="Result" Height="250" Width="350">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="AreaResultTextBlock" Grid.Row="1"/>
+        <TextBox x:Name="PerimeterTextBox" HorizontalAlignment="Left" Margin="85,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="102" Grid.Row="1"/>
+        <TextBox x:Name="MedianTextBox" HorizontalAlignment="Left" Height="20" Margin="85,36,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="102"/>
+        <Button Content="Ok" HorizontalAlignment="Left" Height="26" Margin="52,78,0,0" Grid.Row="2" VerticalAlignment="Top" Width="84" Click="Button_Click"/>
+        <TextBox x:Name="AreaTextBox" HorizontalAlignment="Left" Height="18" Margin="85,9,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="102"/>
+        <Label Content="Area" HorizontalAlignment="Left" Margin="10,1,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+        <Label Content="Median" HorizontalAlignment="Left" Margin="10,33,0,0" Grid.Row="2" VerticalAlignment="Top"/>
+        <Label Content="Perimeter" HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="1" VerticalAlignment="Center"/>
+    </Grid>
+</Window>

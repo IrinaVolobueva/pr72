@@ -1,0 +1,16 @@
+﻿<Window x:Class="пр72.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:пр72"
+        mc:Ignorable="d"
+        Title="Calculator" Height="350" Width="300">
+    <Grid>
+        <Menu>
+            <MenuItem Header="Input" Click="MenuItem_Click"/>
+            <MenuItem Header="Result" Click="MenuItem_Click_1"/>
+            <MenuItem Header="Exit" Click="MenuItem_Click_2"/>
+        </Menu>
+    </Grid>
+</Window>
