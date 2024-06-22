@@ -17,7 +17,7 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <Label Grid.Column="0" Grid.Row="0" Content="Side A:"/>
+        <Label Grid.Column="0" Grid.Row="0" Content="Side A:" Height="26" VerticalAlignment="Top"/>
         <Label Grid.Column="0" Grid.Row="1" Content="Side B:"/>
         <Label Grid.Column="0" Grid.Row="2" Content="Side C:"/>
         <CheckBox x:Name="PerimeterCheckBox" Grid.Column="0" Grid.Row="3" Content="Perimeter"/>

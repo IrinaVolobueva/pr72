@@ -55,7 +55,7 @@ namespace пр72
             resultWindow.AreaTextBox.Text = area ? Area().ToString() : "Not calculated";
             resultWindow.MedianTextBox.Text = median ? Median().ToString() : "Not calculated";
 
-            resultWindow.ShowDialog();
+            resultWindow.ShowDialog();  
         }
 
         private void MenuItem_Click_2(object sender, RoutedEventArgs e)
@@ -76,7 +76,7 @@ namespace пр72
         /// <returns></returns>
         private double Area()
         {
-            double half_Perimeter = Perimeter() / 2;
+            double half_Perimeter = (sideA + sideB + sideC) / 2;
             return Math.Round(Math.Sqrt(half_Perimeter * (half_Perimeter - sideA) * (half_Perimeter - sideB) * (half_Perimeter - sideC)), 3);
         }
         /// <summary>
